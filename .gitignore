@@ -1,0 +1,6 @@
+
+.vs/*
+DefaultLanguageAnalyzer/DefaultLanguageAnalyzer.Vsix/bin/*
+DefaultLanguageAnalyzer/DefaultLanguageAnalyzer.Vsix/obj/*
+DefaultLanguageAnalyzer/DefaultLanguageAnalyzer/bin/Debug/*
+DefaultLanguageAnalyzer/DefaultLanguageAnalyzer/obj/*
