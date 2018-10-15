@@ -3,4 +3,5 @@
 DefaultLanguageAnalyzer/DefaultLanguageAnalyzer.Vsix/bin/*
 DefaultLanguageAnalyzer/DefaultLanguageAnalyzer.Vsix/obj/*
 DefaultLanguageAnalyzer/DefaultLanguageAnalyzer/bin/Debug/*
+DefaultLanguageAnalyzer/DefaultLanguageAnalyzer/bin/Release/*
 DefaultLanguageAnalyzer/DefaultLanguageAnalyzer/obj/*
