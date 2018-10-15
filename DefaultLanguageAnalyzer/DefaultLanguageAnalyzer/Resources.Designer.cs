@@ -62,6 +62,15 @@ namespace DefaultLanguageAnalyzer {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to http://help-link.com.
+        /// </summary>
+        internal static string DefaultLanguage_HelpLink {
+            get {
+                return ResourceManager.GetString("DefaultLanguage_HelpLink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The component &apos;{0}&apos; is not in the default language.
         /// </summary>
         internal static string DefaultLanguage_MessageFormat {

@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DefaultLanguage_HelpLink" xml:space="preserve">
+    <value>http://help-link.com</value>
+  </data>
   <data name="DefaultLanguage_MessageFormat" xml:space="preserve">
     <value>The component '{0}' is not in the default language</value>
   </data>

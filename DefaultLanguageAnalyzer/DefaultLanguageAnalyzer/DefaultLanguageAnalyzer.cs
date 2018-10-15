@@ -13,6 +13,7 @@ namespace DefaultLanguageAnalyzer
 
 		private static readonly LocalizableString Title = new LocalizableResourceString(nameof(Resources.DefaultLanguage_Title), Resources.ResourceManager, typeof(Resources));
 		private static readonly LocalizableString MessageFormat = new LocalizableResourceString(nameof(Resources.DefaultLanguage_MessageFormat), Resources.ResourceManager, typeof(Resources));
+		private static readonly string HelpLink = Resources.DefaultLanguage_HelpLink;
 		private const string Category = "Naming";
 
 		private static readonly string[] IgnoreFileEndings =
@@ -20,7 +21,7 @@ namespace DefaultLanguageAnalyzer
 			".Designer.cs"
 		};
 
-		private static readonly DiagnosticDescriptor Rule = new DiagnosticDescriptor(DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Error, isEnabledByDefault: true);
+		private static readonly DiagnosticDescriptor Rule = new DiagnosticDescriptor(DiagnosticId, Title, MessageFormat, Category, DiagnosticSeverity.Error, isEnabledByDefault: true, helpLinkUri: HelpLink);
 
 		public override ImmutableArray<DiagnosticDescriptor> SupportedDiagnostics { get { return ImmutableArray.Create(Rule); } }
 
