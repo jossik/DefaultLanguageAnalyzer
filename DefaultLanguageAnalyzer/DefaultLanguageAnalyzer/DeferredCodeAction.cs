@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.Immutable;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CodeActions;
-using Microsoft.CodeAnalysis.CodeFixes;
 
 namespace DefaultLanguageAnalyzer
 {
@@ -72,11 +70,6 @@ namespace DefaultLanguageAnalyzer
 		protected virtual Task<Solution> GetChangedSolutionWithPreviewAsync(CancellationToken cancellationToken, bool isPreview)
 		{
 			return createChangedSolution(cancellationToken, isPreview);
-		}
-
-		protected virtual IEnumerable<FixAllScope> GetSupportedFixAllScopes()
-		{
-			return ImmutableArray.Create(FixAllScope.Document);
 		}
 	}
 }
